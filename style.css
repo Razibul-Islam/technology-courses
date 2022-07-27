@@ -1,3 +1,14 @@
+:root{
+    --p-title: #4a4a4a;
+    --p-discrip: #777777;
+}
+.price-title{
+    color: var(--p-title);
+}
+.price-discription{
+    color: var(--p-discrip);
+}
+
 @media screen and (max-width: 576px) {
     .carousel-item h1{
         font-size: 20px;
@@ -7,5 +18,15 @@
     }
     .carousel-item .carousel-caption{
         bottom: -0.50rem;
+    }
+}
+@media screen and (max-width: 758px) {
+    .courses-img{
+        width: 100%;
+        height: 50%;
+    }
+    .course-dis{
+        padding-left: 0 !important;
+        padding-top: 10px;
     }
 }
