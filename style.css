@@ -10,6 +10,12 @@
 .price-discription {
     color: var(--p-discrip);
 }
+.left{
+    left: -20px;
+}
+.right{
+    right: -20px;
+}
 
 @media screen and (max-width: 576px) {
     .carousel-item h1 {
@@ -40,6 +46,12 @@
         padding-top: 10px;
     }
     .rgtn p br{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    .arrow{
         display: none;
     }
 }
