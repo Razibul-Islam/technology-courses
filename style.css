@@ -1,6 +1,7 @@
 :root {
     --p-title: #4a4a4a;
     --p-discrip: #777777;
+    --heading-color: #1d1d1d;
 }
 
 .price-title {
@@ -10,12 +11,18 @@
 .price-discription {
     color: var(--p-discrip);
 }
+.head-color{
+    color: var(--heading-color);
+}
 .left{
     left: -20px;
     cursor: pointer;
 }
 .right{
     right: -20px;
+    cursor: pointer;
+}
+footer i{
     cursor: pointer;
 }
 
