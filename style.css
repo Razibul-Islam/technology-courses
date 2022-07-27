@@ -5,4 +5,7 @@
     .carousel-item p{
         font-size: 12px;
     }
+    .carousel-item .carousel-caption{
+        bottom: -0.50rem;
+    }
 }
