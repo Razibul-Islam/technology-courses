@@ -12,9 +12,11 @@
 }
 .left{
     left: -20px;
+    cursor: pointer;
 }
 .right{
     right: -20px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {
@@ -45,13 +47,20 @@
         padding-left: 0 !important;
         padding-top: 10px;
     }
-    .rgtn p br{
+    p br{
         display: none;
     }
+    .accordion{
+        width: 100% !important;
+    }
+    
     
 }
 @media screen and (max-width: 992px){
     .arrow{
+        display: none;
+    }
+    .company{
         display: none;
     }
 }
