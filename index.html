@@ -223,9 +223,69 @@
                     <p>It is a long established fact that a reader will be distracted by the<br> readable content of a
                         page when looking at its layout.</p>
                 </div>
-                <div>
-                    <a href="form.html" class="btn btn-light text-primary">Register Now</a>
-                </div>
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Register Now
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Registion Here</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <section class="p-3 shadow-lg">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="inputName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" id="inputName">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputLName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="inputLName">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputAddress" placeholder="Email Address">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="Area-Code" class="form-label">Country code</label>
+                                        <select id="Area-Code" class="form-select">
+                                            <option selected>+880</option>
+                                            <option>+93</option>
+                                            <option>+355</option>
+                                            <option>+91</option>
+                                            <option>+966</option>
+                                            <option>+381</option>
+                                            <option>+221</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <label for="Number" class="form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="Number">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="inputState" class="form-label">Subject</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Choose One...</option>
+                                            <option>Web Development</option>
+                                            <option>Web Design</option>
+                                            <option>UI/UX Design</option>
+                                            <option>Graphic Design</option>
+                                            <option>Motion Design</option>
+                                            <option>App Development</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </section>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Register</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                  
             </div>
         </section>
         <!-- Succesful student -->
@@ -344,14 +404,14 @@
             </div>
         </section>
         <!-- Question section -->
-        <section class="mt-5">
+        <section class="my-5">
             <div class="text-center">
                 <h1 class="head-color">Frequently Asked Questions</h1>
                 <p class="py-3 price-discription">It is a long established fact that a reader will be distracted by the
                     readable<br>
                     content of a page when looking at its layout.</p>
             </div>
-            <div class="">
+            <div>
                 <div class="accordion w-50 mx-auto" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -436,7 +496,7 @@
             </div>
         </section>
         <!-- trusted company -->
-        <section class="my-5 company">
+        <section class="my-5 d-none d-lg-block company">
             <h2 class="text-center head-color">Trusted by over 800+ companies</h2>
             <div class="mt-5">
                 <span class="px-4"><img src="images/company/company-1.png" class="img-fluid"></span>

@@ -30,7 +30,7 @@ footer i {
     cursor: pointer;
 }
 
-.Register-form {
+.form-register {
     width: 60%;
 }
 
@@ -71,7 +71,7 @@ footer i {
         width: 100% !important;
     }
 
-    .Register-form {
+    .form-register {
         width: 90%;
     }
 
@@ -79,10 +79,6 @@ footer i {
 
 @media screen and (max-width: 992px) {
     .arrow {
-        display: none;
-    }
-
-    .company {
         display: none;
     }
 }
