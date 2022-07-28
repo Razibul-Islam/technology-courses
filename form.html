@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <Header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Deals</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Success</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Register</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-primary" type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </Header>
+    <main class="mt-5">
+        <section class="container Register-form shadow-lg">
+            <h1 class="text-center">Registion Here</h1>
+            <form class="row g-3 mt-5">
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputLName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLName">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputAddress" placeholder="Email Address">
+                </div>
+                <div class="col-md-2">
+                    <label for="Area-Code" class="form-label">Area Code</label>
+                    <select id="Area-Code" class="form-select">
+                        <option selected>+880</option>
+                        <option>+93</option>
+                        <option>+355</option>
+                        <option>+91</option>
+                        <option>+966</option>
+                        <option>+381</option>
+                        <option>+221</option>
+                    </select>
+                </div>
+                <div class="col-md-10">
+                    <label for="Number" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="Number">
+                </div>
+                <div class="col-md-12">
+                    <label for="inputState" class="form-label">Subject</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Web Development</option>
+                        <option>Web Design</option>
+                        <option>UI/UX Design</option>
+                        <option>Graphic Design</option>
+                        <option>Motion Design</option>
+                        <option>App Development</option>
+                    </select>
+                </div>
+                <div class="col-12 mb-3">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

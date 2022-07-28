@@ -11,19 +11,27 @@
 .price-discription {
     color: var(--p-discrip);
 }
-.head-color{
+
+.head-color {
     color: var(--heading-color);
 }
-.left{
+
+.left {
     left: -20px;
     cursor: pointer;
 }
-.right{
+
+.right {
     right: -20px;
     cursor: pointer;
 }
-footer i{
+
+footer i {
     cursor: pointer;
+}
+
+.Register-form {
+    width: 60%;
 }
 
 @media screen and (max-width: 576px) {
@@ -54,20 +62,27 @@ footer i{
         padding-left: 0 !important;
         padding-top: 10px;
     }
-    p br{
+
+    p br {
         display: none;
     }
-    .accordion{
+
+    .accordion {
         width: 100% !important;
     }
-    
-    
+
+    .Register-form {
+        width: 90%;
+    }
+
 }
-@media screen and (max-width: 992px){
-    .arrow{
+
+@media screen and (max-width: 992px) {
+    .arrow {
         display: none;
     }
-    .company{
+
+    .company {
         display: none;
     }
 }
